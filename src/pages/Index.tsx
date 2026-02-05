@@ -105,7 +105,7 @@ const Index = () => {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 h-12 px-8"
+                  className="border-primary-foreground/30 text-foreground bg-white hover:bg-gray-100 h-12 px-8"
                 >
                   Get in Touch
                 </Button>
@@ -130,7 +130,7 @@ const Index = () => {
                 Why Work <span className="text-gradient">With Us?</span>
               </h2>
               <p className="text-muted-foreground text-lg mb-8">
-                At The Eleventh Dimension Ltd, we are committed to excellence, innovation, 
+                At The Eleventh Dimension Ltd, we are committed to excellence, innovation,
                 and delivering exceptional results on every project we undertake.
               </p>
               <ul className="space-y-4">

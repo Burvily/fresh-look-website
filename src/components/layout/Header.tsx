@@ -9,7 +9,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import logo from "@/assets/11Dlogo8.png";
+import logo from "@/assets/11thDlogo8.png";
 
 const navItems = [
   { name: "Home", path: "/" },

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Layout } from "@/components/layout/Layout";
-import aboutImage from "@/assets/about-office.jpg";
+import aboutImage from "@/assets/engineering-apparatus-branded.png";
 
 const team = [
   {
