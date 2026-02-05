@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/11Dlogo8.png";
 
 const footerLinks = [
   { name: "Home", path: "/" },
@@ -19,11 +19,11 @@ export const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link to="/" className="inline-block mb-6">
-              <img src={logo} alt="Eleventh Dimension" className="h-12 w-auto brightness-0 invert" />
+              <img src={logo} alt="Eleventh Dimension" className="h-10 sm:h-12 w-auto brightness-0 invert" />
             </Link>
             <p className="text-primary-foreground/70 max-w-md leading-relaxed">
-              At The Eleventh Dimension Ltd, we provide specialist project management and 
-              engineering services to drive the success of complex construction, fit-out, 
+              At The Eleventh Dimension Ltd, we provide specialist project management and
+              engineering services to drive the success of complex construction, fit-out,
               civil, mechanical, and electrical infrastructure projects.
             </p>
           </div>

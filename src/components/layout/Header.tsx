@@ -9,7 +9,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/11Dlogo8.png";
 
 const navItems = [
   { name: "Home", path: "/" },
@@ -35,8 +35,8 @@ export const Header = () => {
       <nav className="container mx-auto container-padding">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3">
-            <img src={logo} alt="Eleventh Dimension" className="h-10 md:h-12 w-auto" />
+          <Link to="/" className="flex items-center gap-3 z-10">
+            <img src={logo} alt="Eleventh Dimension" className="h-8 sm:h-10 md:h-12 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -45,11 +45,10 @@ export const Header = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors ${
-                  location.pathname === item.path
-                    ? "text-accent bg-accent/10"
-                    : "text-foreground/70 hover:text-foreground hover:bg-muted"
-                }`}
+                className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors ${location.pathname === item.path
+                  ? "text-accent bg-accent/10"
+                  : "text-foreground/70 hover:text-foreground hover:bg-muted"
+                  }`}
               >
                 {item.name}
               </Link>
@@ -83,8 +82,9 @@ export const Header = () => {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden p-2 text-foreground"
+            className="md:hidden p-2 text-foreground hover:bg-muted rounded-lg transition-colors min-h-[44px] min-w-[44px] flex items-center justify-center"
             onClick={() => setIsOpen(!isOpen)}
+            aria-label="Toggle menu"
           >
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
@@ -106,11 +106,10 @@ export const Header = () => {
                   key={item.path}
                   to={item.path}
                   onClick={() => setIsOpen(false)}
-                  className={`block px-4 py-3 text-base font-medium rounded-lg transition-colors ${
-                    location.pathname === item.path
-                      ? "text-accent bg-accent/10"
-                      : "text-foreground/70 hover:text-foreground hover:bg-muted"
-                  }`}
+                  className={`block px-4 py-3 text-base font-medium rounded-lg transition-colors ${location.pathname === item.path
+                    ? "text-accent bg-accent/10"
+                    : "text-foreground/70 hover:text-foreground hover:bg-muted"
+                    }`}
                 >
                   {item.name}
                 </Link>
