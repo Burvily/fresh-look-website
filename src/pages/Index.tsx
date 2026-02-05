@@ -4,6 +4,8 @@ import { ArrowRight, CheckCircle, Users, Target, Briefcase } from "lucide-react"
 import { Button } from "@/components/ui/button";
 import { Layout } from "@/components/layout/Layout";
 import heroImage from "@/assets/hero-construction.jpg";
+import clientBentley from "@/assets/client-bentley.png";
+import clientAdecco from "@/assets/client-adecco.png";
 
 const features = [
   "Delivery-focused project management",
@@ -150,7 +152,7 @@ const Index = () => {
               className="bg-primary rounded-2xl p-8 lg:p-12"
             >
               <h3 className="text-2xl font-display font-bold text-primary-foreground mb-4">
-                Our Clients
+                Some of Our Clients
               </h3>
               <p className="text-primary-foreground/70 leading-relaxed mb-6">
                 We are proud to partner with a diverse range of esteemed clients across
@@ -158,10 +160,10 @@ const Index = () => {
                 management, we deliver tailored solutions that meet our clients' unique
                 needs and exceed their expectations.
               </p>
-              <p className="text-primary-foreground/70 leading-relaxed">
-                Our commitment to excellence, innovation, and client satisfaction drives
-                us to achieve outstanding results in every project we undertake.
-              </p>
+              <div className="flex items-center gap-8 mt-6">
+                <img src={clientBentley} alt="Bentley" className="h-12 w-auto object-contain bg-white/90 rounded-lg p-2" />
+                <img src={clientAdecco} alt="Adecco" className="h-12 w-auto object-contain bg-white/90 rounded-lg p-2" />
+              </div>
             </motion.div>
           </motion.div>
         </div>

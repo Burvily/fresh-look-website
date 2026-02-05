@@ -24,8 +24,8 @@
     --secondary: 210 40% 96%;
     --secondary-foreground: 222 47% 11%;
 
-    /* Accent - Warm amber/gold */
-    --accent: 38 92% 50%;
+    /* Accent - Red */
+    --accent: 0 84% 50%;
     --accent-foreground: 0 0% 100%;
 
     --muted: 210 40% 96%;
@@ -42,7 +42,7 @@
 
     /* Custom gradients */
     --gradient-hero: linear-gradient(135deg, hsl(222 47% 11%) 0%, hsl(222 47% 20%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(38 92% 50%) 0%, hsl(28 92% 50%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(0 84% 50%) 0%, hsl(0 70% 45%) 100%);
     --gradient-subtle: linear-gradient(180deg, hsl(210 40% 98%) 0%, hsl(0 0% 100%) 100%);
 
     /* Shadows */
@@ -50,7 +50,7 @@
     --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-    --shadow-glow: 0 0 40px -10px hsl(38 92% 50% / 0.3);
+    --shadow-glow: 0 0 40px -10px hsl(0 84% 50% / 0.3);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -78,7 +78,7 @@
     --secondary: 217 33% 17%;
     --secondary-foreground: 210 40% 98%;
 
-    --accent: 38 92% 50%;
+    --accent: 0 84% 50%;
     --accent-foreground: 0 0% 100%;
 
     --muted: 217 33% 17%;
@@ -130,7 +130,7 @@
   }
 
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent to-amber-600;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent to-red-600;
   }
 
   .glass-effect {
