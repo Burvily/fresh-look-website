@@ -23,8 +23,7 @@ export const Footer = () => {
             </Link>
             <p className="text-primary-foreground/70 max-w-md leading-relaxed">
               At The Eleventh Dimension Ltd, we provide specialist project management and
-              engineering services to drive the success of complex construction, fit-out,
-              civil, mechanical, and electrical infrastructure projects.
+              consulting services to drive the success of complex projects across various sectors.
             </p>
           </div>
 

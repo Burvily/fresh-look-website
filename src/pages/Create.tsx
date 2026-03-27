@@ -17,7 +17,7 @@ const features = [
     icon: LayoutDashboard,
     title: "Project Management",
     description:
-      "Organize and track all your construction projects in one place with AI-powered work breakdown structures.",
+      "Organize and track all your projects in one place with CREATE work breakdown structures.",
   },
   {
     icon: CheckSquare,
@@ -35,7 +35,7 @@ const features = [
     icon: Users,
     title: "Resource Allocation",
     description:
-      "Efficiently manage personnel, equipment, and materials across multiple construction projects.",
+      "Efficiently manage personnel, equipment, and materials across multiple projects.",
   },
 ];
 
@@ -75,7 +75,7 @@ const Create = () => {
                 className="inline-flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 mb-4 sm:mb-6 text-xs sm:text-sm font-medium bg-accent/20 text-accent rounded-full"
               >
                 <Sparkles className="h-3 w-3 sm:h-4 sm:w-4" />
-                AI-Powered Solution
+                CREATE Solution
               </motion.div>
               <motion.h1
                 variants={fadeInUp}
@@ -90,9 +90,7 @@ const Create = () => {
                 variants={fadeInUp}
                 className="text-base sm:text-lg md:text-xl text-primary-foreground/80 mb-6 sm:mb-8 max-w-2xl mx-auto lg:mx-0"
               >
-                AI-Powered Project Management for Construction. Streamline your construction
-                projects with intelligent work breakdown structures, real-time tracking, and
-                comprehensive resource management.
+                CREATE – AI Assisted Self Project Management Platform. Streamline your projects with intelligent work breakdown structures, real-time tracking, risk management, and comprehensive resource management.
               </motion.p>
               <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 justify-center lg:justify-start">
                 <a
@@ -131,7 +129,7 @@ const Create = () => {
               <div className="relative rounded-xl sm:rounded-2xl overflow-hidden shadow-xl sm:shadow-2xl border border-primary-foreground/10">
                 <img
                   src={aiProjectImage}
-                  alt="AI-Powered Construction Project Management"
+                  alt="CREATE Project Management Platform"
                   className="w-full h-auto object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/40 via-transparent to-transparent" />
@@ -164,7 +162,7 @@ const Create = () => {
               variants={fadeInUp}
               className="text-muted-foreground text-lg max-w-2xl mx-auto"
             >
-              Everything you need to manage construction projects efficiently and effectively.
+              Everything you need to manage projects efficiently and effectively.
             </motion.p>
           </motion.div>
 
@@ -216,8 +214,8 @@ const Create = () => {
               variants={fadeInUp}
               className="text-primary-foreground/70 text-lg mb-8"
             >
-              Join construction companies that are saving time and reducing costs with our
-              AI-powered project management solution.
+              Join companies that are saving time and reducing costs with our
+              CREATE project management solution.
             </motion.p>
             <motion.div variants={fadeInUp}>
               <a

@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Layout } from "@/components/layout/Layout";
+import servicesHero from "@/assets/services-hero.jpg";
 
 const services = [
   {
@@ -28,8 +29,8 @@ const services = [
     category: "Financial Planning and Management",
     icon: DollarSign,
     items: [
-      "Strategic financial planning for infrastructural projects",
-      "Development project financing and execution",
+      "Strategic financial planning for various complex projects",
+      "Project financing and execution",
       "Budget forecasting and financial risk management",
     ],
   },
@@ -60,11 +61,21 @@ const Services = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="relative py-24 sm:py-32 lg:py-40 overflow-hidden bg-primary">
-        <div className="absolute inset-0 opacity-10">
+      <section className="relative py-24 sm:py-32 lg:py-40 overflow-hidden">
+        {/* Background Image & Overlay */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src={servicesHero}
+            alt="Services Hero Background"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-primary/90" />
+        </div>
+
+        <div className="absolute inset-0 opacity-20 z-0">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,_hsl(38_92%_50%_/_0.3),_transparent_70%)]" />
         </div>
-        <div className="relative container mx-auto container-padding text-center">
+        <div className="relative z-10 container mx-auto container-padding text-center">
           <motion.div
             initial="hidden"
             animate="visible"

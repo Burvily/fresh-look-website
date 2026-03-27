@@ -10,7 +10,7 @@ import clientAdecco from "@/assets/client-adecco.png";
 const features = [
   "Delivery-focused project management",
   "Supplier & tender process expertise",
-  "Expertise in managing construction and IT projects using collaborative digital platforms",
+  "Expertise in managing complex projects across various sectors using collaborative digital platforms",
 ];
 
 const services = [
@@ -29,7 +29,7 @@ const services = [
   {
     title: "Strategic Financial Planning",
     description:
-      "Our expert team provides comprehensive financial planning to ensure your construction projects are efficiently managed and completed within budget.",
+      "Our expert team provides comprehensive financial planning to ensure your projects are efficiently managed and completed within budget.",
     icon: Briefcase,
   },
 ];
@@ -56,7 +56,7 @@ const Index = () => {
         <div className="absolute inset-0">
           <img
             src={heroImage}
-            alt="Construction Project"
+            alt="Modern Project Environment"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-primary/60" />
@@ -74,7 +74,7 @@ const Index = () => {
               variants={fadeInUp}
               className="inline-block px-4 py-2 mb-6 text-sm font-medium bg-accent/20 text-accent rounded-full"
             >
-              Experts in Design, Construction & Project Management
+              Experts in Project Management & Specialist Consultancy
             </motion.span>
             <motion.h1
               variants={fadeInUp}
@@ -88,8 +88,7 @@ const Index = () => {
               className="text-lg sm:text-xl text-primary-foreground/80 mb-8 max-w-2xl"
             >
               Building your dreams with precision. We provide specialist project management
-              and engineering services to drive the success of complex construction and
-              infrastructure projects.
+              and consultancy services to drive the success of complex projects across various industries.
             </motion.p>
             <motion.div variants={fadeInUp} className="flex flex-wrap gap-4">
               <Link to="/services">
@@ -156,7 +155,7 @@ const Index = () => {
               </h3>
               <p className="text-primary-foreground/70 leading-relaxed mb-6">
                 We are proud to partner with a diverse range of esteemed clients across
-                various industries. From construction and engineering to IT project
+                various industries. From specialist consulting to complex project
                 management, we deliver tailored solutions that meet our clients' unique
                 needs and exceed their expectations.
               </p>
